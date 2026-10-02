@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: rgb(235, 157, 255);
   /* Comportamento com border-box: O navegador mantém a largura total
    exatamente em 100px. O padding e a borda são distribuídos para o lado
    de dentro da caixa, reduzindo o espaço interno útil para o conteúdo, 
@@ -39,7 +40,7 @@ body {
   width: 50em;
   height: 36em;
   margin: auto;
-  background: #3d3fc3;
+  background: #5ef3d7;
   display: flex;
   flex-wrap: wrap;
   /* A propriedade flex-wrap do CSS define se os itens de um container
@@ -84,7 +85,7 @@ body {
   padding: 1em;
   position: absolute;
   border-radius: .5em;
-  background: #85a2ba;
+  background: #f566b5;
   backface-visibility: hidden;
 }
 
